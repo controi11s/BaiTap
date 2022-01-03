@@ -34,60 +34,6 @@ function sum() {
 
   document.getElementById("result").innerText = total / 3;
 }
-// Tính tiền điện
-// let kwdien = document.getElementById("kwdien").value;
-// function cashTo50() {
-//   if (kwdien <= 50) {
-//     return 500*kwdien;
-//   }
-// }
-// function cashTo100() {
-//   kwdien = kwdien - 50 // 50 dau
-
-//   if (kwdien > 50 && kwdien <= 100) {
-//     return 650*kwdien;
-//   }
-// }
-// function cashTo200() {
-//   if (kwdien > 100 && kwdien <= 200) {
-//     return 850;
-//   }
-// }
-// function cashTo350() {
-//   if (kwdien > 200 && kwdien <= 350) {
-//     return 1100;
-//   }
-// }
-// function cashOver350() {
-//   if (kwdien > 350) {
-//     return 1300;
-//   }
-// }
-
-// console.log(kwdien);
-// function giaDien(){
-//   let total = 0;
-//   if (kwdien >= 350){
-//     total = total + (kwdien-350) * 1300 ;
-//      total = total + 50*500 + 50* 650 + ...
-
-//     }
-
-//   } else  if (kw < 350) {
-//     if (kw >= 200) {
-
-//     } else {
-
-//     }
-//   }
-// }
-
-// function cashFor50(kw) {
-//   return kw * 500;
-// }
-// function cashFor100(kw) {
-//   return kw * 650;
-// }
 
 function cashForPrice(kw, pricePerKw) {
   return kw * pricePerKw;
